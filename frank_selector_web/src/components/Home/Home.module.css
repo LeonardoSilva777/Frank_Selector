@@ -1,0 +1,53 @@
+
+.section_home {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../../assets/img/img_homePage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+
+    & h1 {
+        font-size: 48px;
+        color: white;
+        margin-left: 60px;
+        margin-top: 180px;
+        margin-bottom: 30px;
+    }
+
+    & hr {
+        width: 14%; 
+        margin-left: 60px; 
+        height: 2px; 
+        background-color: white; 
+        margin-bottom: 30px;
+        
+    }
+
+    & h2{
+        color: white;
+        font-size: 25px;
+        font-weight: 300;
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+
+    & .botao_contato {
+        width: 17%;
+        background-color: #00c9a7; 
+        color: white;
+        border-radius: 50px; 
+        padding: 25px 40px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 60px;        
+    }
+
+    & .botao_contato:hover {
+        background-color: #6f42c1;
+        transition: 0.5s ;
+    }
+
+}
