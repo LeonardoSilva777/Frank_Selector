@@ -26,7 +26,7 @@ export default function Header(){
                     </a>
     
                     <a 
-                    href="https://www.instagram.com/frank_selector" 
+                    href="https://www.instagram.com/manacaqueijaria" 
                     className={Style.social}
                     style={{color: 'rebeccapurple'}}
                     >

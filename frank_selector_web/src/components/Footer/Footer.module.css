@@ -1,0 +1,53 @@
+
+footer {
+    width: 100%;
+    height: 30vh; 
+    background-color: #222222; 
+    color: #f0f0f0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; 
+
+    & h3 {
+    color: #00C9A7; /* Uma cor de destaque, como o botão "Cadastre-se" do seu código anterior */
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    }   
+    
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+.links {
+
+    & ul {
+    list-style: none;
+    }
+
+    & li {
+        margin-bottom: 5px;
+    }
+
+    & a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 15px;
+    transition: color 0.2s;
+    }
+    
+}
+
+.links a:hover {
+    color: #1a6b65; 
+}
+
+.icones a {
+    color: #f0f0f0;
+    margin-right: 10px;
+    text-decoration: none;
+}

@@ -123,3 +123,50 @@ h1 {
     }
 }
 
+
+@media (max-width: 768px) {
+    
+    h1 {
+        font-size: 36px;
+        margin-top: 20px; 
+    }
+
+    .musicas {
+        flex-direction: row;  
+        justify-content: space-around;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+
+  
+    .musicas .albuns {
+        width: 45%; 
+        height: auto;
+        min-height: 280px;
+        margin: 10px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+    .musicas .albuns h3 {
+        font-size: 18px;
+    }
+
+   
+    .botoes {
+        flex-direction: row; 
+        height: auto;
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+   
+    .botoes .ver_mais, 
+    .botoes .indique {
+        width: 80%; 
+        max-width: 300px; 
+        height: 50px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+}
+

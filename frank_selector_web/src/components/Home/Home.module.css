@@ -51,3 +51,45 @@
     }
 
 }
+
+@media (max-width: 768px) {
+    /* Ajusta as margens e padding de toda a seção */
+    .section_home {
+        height: 60vh; /* Reduz a altura da seção na tela para não ocupar a tela inteira */
+        padding-top: 50px; /* Adiciona um pouco de espaço no topo */
+        justify-content: center; /* Centraliza o conteúdo verticalmente */
+    }
+
+    
+    .section_home h1, hr, h2, .botao_contato {
+        margin-left: 20px; 
+        margin-right: 20px; 
+    }
+
+
+    .section_home h1 {
+        font-size: 36px;
+        margin-top: 0; 
+        margin-bottom: 15px;
+    }
+    
+ 
+    .section_home hr {
+        width: 30%; 
+        margin-bottom: 20px;
+    }
+
+   
+    .section_home h2 {
+        font-size: 18px;
+        margin-bottom: 25px;
+        max-width: 90%; 
+    }
+
+
+    .section_home .botao_contato {
+        width: 50%; 
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+}

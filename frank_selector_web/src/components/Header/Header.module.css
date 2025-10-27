@@ -64,3 +64,28 @@ nav a.ativo {
     align-items: center; 
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        display: none; 
+    }
+
+    
+    header {
+        justify-content: space-between; 
+        padding: 0 15px;
+    }
+    
+    .redes_sociais .redes {
+        width: 100px; 
+        justify-content: space-around;
+    }
+    
+    .social {
+        width: 40px;
+        height: 40px;
+        border: 2px solid rebeccapurple; 
+    }
+}
+
