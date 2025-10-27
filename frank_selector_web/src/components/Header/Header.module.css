@@ -32,8 +32,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffffff; /* Fica branco puro, mais vibrante */
-    font-weight: 700; /* Opcional: Fica um pouco mais negrito */
+    color: #ffffff; 
+    font-weight: 700; 
 }
 
 nav a.ativo {

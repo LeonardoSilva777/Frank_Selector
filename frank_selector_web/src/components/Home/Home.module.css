@@ -53,11 +53,10 @@
 }
 
 @media (max-width: 768px) {
-    /* Ajusta as margens e padding de toda a seção */
     .section_home {
-        height: 60vh; /* Reduz a altura da seção na tela para não ocupar a tela inteira */
-        padding-top: 50px; /* Adiciona um pouco de espaço no topo */
-        justify-content: center; /* Centraliza o conteúdo verticalmente */
+        height: 60vh; 
+        padding-top: 50px; 
+        justify-content: center; 
     }
 
     

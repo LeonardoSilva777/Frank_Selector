@@ -10,7 +10,7 @@ footer {
     align-items: flex-start; 
 
     & h3 {
-    color: #00C9A7; /* Uma cor de destaque, como o botão "Cadastre-se" do seu código anterior */
+    color: #00C9A7; 
     margin-bottom: 15px;
     margin-top: 20px;
     font-size: 20px;
