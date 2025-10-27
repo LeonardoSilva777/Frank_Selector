@@ -15,29 +15,52 @@ header {
 }
 
 nav {
-    width: 30%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 30px;
-
-    & a {
-        color: white;
-        text-decoration: none;
-        font-size: 20px;
-        font-family: sans-serif;
-        font-weight: bold;
+        width: 70%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
     }
+nav a {
+    color: #e5e5e5; 
+    font-size: 18px;
+    text-decoration: none; 
+    font-weight: 400; 
+    transition: color 0.3s ease; 
 }
 
-.redes {
-    width: 15%;
+nav a:hover {
+    color: #ffffff; /* Fica branco puro, mais vibrante */
+    font-weight: 700; /* Opcional: Fica um pouco mais negrito */
+}
+
+nav a.ativo {
+    color: #ffffff;
+    font-weight: 700; /* Negrito para destacar */
+}
+
+
+.redes_sociais {
+    .redes {
+    width: 160px; 
     height: 80px;
-    background-color: white;
-    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
 }
 
 
-
+.social {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid rebeccapurple;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+}

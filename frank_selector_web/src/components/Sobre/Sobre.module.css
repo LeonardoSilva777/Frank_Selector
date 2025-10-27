@@ -1,7 +1,112 @@
 
-
 .section_sobre {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    
 }
+
+.textos {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    & h1 {
+        color: #00C9A7;
+        font-size: 50px;
+        margin-left: 50px;
+       
+    }
+
+    & p {
+        font-size: 20px;
+        color: gray;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    & .Contato {
+        width: 180px;
+        height: 60px;
+        border: 2px solid #00C9A7;
+        background-color: transparent;
+        color: #00C9A7;
+        font-size: 13px;
+        font-weight: bold;
+        border-radius: 15px;
+        margin-left: 50px;
+        cursor: pointer; 
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+
+    & .Contato:hover {
+        -color: #00C9A7;
+        box-shadow: 0 6px 12px #00C9A7; 
+        transform: translateY(-3px); 
+    }
+
+
+    & .Contato:active {
+        transform: translateY(0); 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.linha_azul {
+    border: 10px;
+    border-top: 3px solid; 
+    border-color: #00C9A7; 
+    width: 100px; 
+    margin-left: 50px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.images {
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    & .quadrado1 {
+        position: absolute;
+        z-index: 1;
+        right: 240px;
+        top: 170px;
+        width: 270px;
+        height: 380px;
+        background-color: #67FF6C;
+    }
+
+    & .quadrado2 {
+        position: absolute;
+        z-index: 1;
+        left: 200px;
+        bottom: 150px;
+        width: 310px;
+        height: 400px;
+        background-color: #6F42C1;
+    }
+
+
+
+    & .leh {
+        position: relative;
+        z-index: 2;
+        width: 350px;
+        height: 430px;
+    }
+}
+
+
+
+
