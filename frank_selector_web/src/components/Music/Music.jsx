@@ -6,7 +6,7 @@ import Bob from '../../assets/img/bob marley.jpg'
 
 export default function Music() {
     return (
-        <section className={Style.section_musica}>
+        <section id="Musicas" className={Style.section_musica}>
             <h1>Musicas Mais Tocadas</h1>
             <hr className={Style.linha_azul}></hr>
 

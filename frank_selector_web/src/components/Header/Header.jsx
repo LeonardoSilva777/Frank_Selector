@@ -8,10 +8,10 @@ export default function Header(){
         <header>
             <img src={Logo} alt="Logo simbolo da paz" />
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Leandro</a>
-                <a href="#">Musicas</a>
-                <a href="#">Contato</a>
+                <a href="#Home">Home</a>
+                <a href="#Sobre">Leandro</a>
+                <a href="#Musicas">Musicas</a>
+                <a href="#Contato">Contato</a>
             </nav>
             <div className={Style.redes_sociais}>
                 <div className={Style.redes}>

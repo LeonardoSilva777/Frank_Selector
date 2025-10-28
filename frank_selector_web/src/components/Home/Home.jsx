@@ -4,7 +4,7 @@ import Style from '../Home/Home.module.css'
 
 export default function Home () {
     return (
-        <section className={Style.section_home}>
+        <section id="Home" className={Style.section_home}>
             <h1>FRANK SELECTOR</h1>
             <hr />
             <h2>Leandro Carlos, 43 anos Dj de vinil, <br />

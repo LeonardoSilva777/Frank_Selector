@@ -3,7 +3,7 @@ import Leandro from '../../assets/img/FRANKSELECTOR.webp'
 
 export default function Sobre(){
     return (
-        <section className={Style.section_sobre}>
+        <section id="Sobre" className={Style.section_sobre}>
             <aside className={Style.textos}>
                 <h1>Meu nome é Leandro </h1>
                 <hr className={Style.linha_azul}></hr>

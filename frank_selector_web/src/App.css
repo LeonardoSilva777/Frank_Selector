@@ -6,3 +6,7 @@ main {
   margin: auto;
   
 }
+
+html {
+  scroll-behavior: smooth;
+}

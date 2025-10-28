@@ -68,50 +68,68 @@ iframe {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     
     .section_eventos {
         padding: 20px 0;
+        /* CORREÇÃO: Remove a altura fixa de desktop, permitindo o ajuste */
+        height: auto; 
         min-height: auto;
     }
     
-    
     .section_eventos h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
+        font-size: 32px; 
+        margin-bottom: 30px;
         text-align: center;
     }
 
-    
     .Org {
-        flex-direction: row; 
-        align-items: center;
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%;
     }
 
     .Locais {
-        width: 40%;
+        width: 90%; 
+        max-width: 400px; 
+        /* CORREÇÃO: Remove a altura fixa de desktop */
+        height: auto; 
         min-height: auto;
         margin-bottom: 30px; 
     }
 
-    iframe {
-        width: 300px;
-        height: 200px;
+    .Locais .texts {
+        /* CORREÇÃO: Remove a altura fixa (170px) de desktop */
+        height: auto;
+        padding-bottom: 10px; /* Adiciona um espaço abaixo do texto */
     }
 
     .Locais .texts h1 {
-        font-size: 32px;
+        font-size: 24px; 
+        text-align: center;
+        padding-top: 15px;
+        margin-bottom: 5px; /* Ajusta o espaçamento */
     }
+
     .Locais .texts p {
-        font-size: 16px;
-        padding: 0 10px;
+        font-size: 14px; 
+        padding: 0 20px;
+        text-align: center;
     }
 
+    iframe {
+        width: 100%; 
+        height: 200px; 
+        border-end-end-radius: 20px;
+        border-end-start-radius: 20px;
+        /* Garante que o iframe fique abaixo do social */
+        margin-top: 0; 
+    }
+    
     .Locais .social {
-        position: relative;
-        top: 0;
-        right: 0;
-        margin-bottom: 10px; 
+        position: static; 
+        margin: 15px auto; /* Aumenta a margem para separar do texto e do mapa */
+        display: block; 
+        text-align: center;
     }
-
 }

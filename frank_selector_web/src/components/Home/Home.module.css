@@ -52,43 +52,48 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .section_home {
-        height: 60vh; 
+        height: 80vh; 
         padding-top: 50px; 
         justify-content: center; 
+        align-items: center; 
+        text-align: center; 
     }
 
-    
-    .section_home h1, hr, h2, .botao_contato {
-        margin-left: 20px; 
-        margin-right: 20px; 
-    }
-
-
-    .section_home h1 {
-        font-size: 36px;
-        margin-top: 0; 
-        margin-bottom: 15px;
+    .section_home h1, 
+    .section_home hr, 
+    .section_home h2, 
+    .section_home .botao_contato {
+        margin-left: 0; 
+        margin-right: 0; 
     }
     
- 
     .section_home hr {
         width: 30%; 
         margin-bottom: 20px;
+        margin-left: auto; 
+        margin-right: auto; 
     }
 
-   
-    .section_home h2 {
-        font-size: 18px;
-        margin-bottom: 25px;
+    .section_home h1 {
+        font-size: 32px; 
+        margin-top: 0; 
+        margin-bottom: 15px;
         max-width: 90%; 
     }
-
+    
+    .section_home h2 {
+        font-size: 16px; 
+        margin-bottom: 30px; 
+        max-width: 90%; 
+        padding: 0 10px; 
+    }
 
     .section_home .botao_contato {
-        width: 50%; 
+        width: 70%; 
+        max-width: 300px; 
         padding: 15px 20px;
-        font-size: 18px;
+        font-size: 16px; 
     }
 }
